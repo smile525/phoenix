@@ -245,10 +245,10 @@ class MediaLoader(private val activity: FragmentActivity, type: Int, private val
                         + MediaStore.Files.FileColumns.MEDIA_TYPE_IMAGE
                         + " OR "
                         + MediaStore.Files.FileColumns.MEDIA_TYPE + "="
-//                        + MediaStore.Files.FileColumns.MEDIA_TYPE_VIDEO
+                        + MediaStore.Files.FileColumns.MEDIA_TYPE_VIDEO
 //                        + " OR "
 //                        + MediaStore.Files.FileColumns.MEDIA_TYPE + "="
-                        + MediaStore.Files.FileColumns.MEDIA_TYPE_AUDIO
+//                        + MediaStore.Files.FileColumns.MEDIA_TYPE_AUDIO
                         + " AND "
                         + MediaStore.Files.FileColumns.SIZE + ">0"
                         + " AND "
